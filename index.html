@@ -7,15 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GBV</title>
     <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="stylesheet" href="/assets/css/app.css">
 
 </head>
 
-<body>
+<body class="font-primary">
 
     <!-- Navbar -->
-    <nav class=" flex items-center justify-between px-6 py-4 bg-transparent text-white">
-        <div class="text-lg font-bold">GB <span class="text-orange-300">V</span></div>
-        <ul class="hidden md:flex space-x-8 font-medium">
+    <nav class=" flex items-center justify-between px-6 py-4 bg-transparent text-white font-navbar font-light">
+        <div class="text-lg">GB<span class="text-orange-300">V</span></div>
+        <ul class="hidden md:flex space-x-8">
             <li><a href="#" class="hover:text-orange-300">Home</a></li>
             <li><a href="#" class="hover:text-orange-300">About us</a></li>
             <li><a href="#" class="hover:text-orange-300">Get Help</a></li>
@@ -23,38 +24,38 @@
         </ul>
     </nav>
     <!-- Hero Section -->
-    <section class="hero-section flex items-center">
+    <section class="hero-section flex items-center font-primary">
         <div class="flex items-center justify-start px-10">
             <div class="max-w-xl text-white ">
-                <h1 class="text-4xl md:text-5xl font-bold mb-4">Stand United Against Gender-Based Violence</h1>
-                <p class="text-lg mb-6">Empower. Protect. Break the Silence.</p>
+                <h1 class="text-4xl md:text-5xl font-bold mb-4 ">Stand United Against Gender-Based Violence</h1>
+                <p class="text-lg font-light mb-4">Empower. Protect. Break the Silence.</p>
                 <div class="flex space-x-4">
                     <a href="#"
-                        class="px-6 py-2 border border-white rounded-full hover:bg-white hover:text-black transition">Learn
+                        class="px-6 py-2 border border-white rounded-full hover:bg-white hover:text-black transition font-light shadow-2xl">Learn
                         More</a>
-                    <a href="#" class="px-6 py-2 bg-red-600 text-white rounded-full hover:bg-red-700 transition">Get
+                    <a href="#" class="px-9 py-2 bg-red-600 text-white rounded-full hover:bg-red-700 transition font-light shadow-2xl">Get
                         Help</a>
                 </div>
             </div>
         </div>
     </section>
-    <section class="understanding-reality bg-white">
+    <section class="understanding-reality bg-white font-primary">
         <div class="max-w-6xl mx-auto px-4 py-12">
             <h2 class="text-3xl font-semibold text-center mb-10">
                 Understanding the <span class="text-orange-500">Reality</span>
-                <div class="w-16 h-1 bg-orange-500 mx-auto mt-2"></div>
+                <div class="w-50 h-1 bg-orange-500 mx-auto mt-3 rounded"></div>
             </h2>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 
                 <!-- Card 1 -->
-                <div class="bg-white shadow rounded-lg overflow-hidden flex flex-col">
+                <div class="bg-white shadow-md rounded-lg overflow-hidden flex flex-col">
                     <img src="img/violence-against-women.png" alt="Violence against women and girls"
-                        class="w-full h-60 object-cover">
+                        class="w-full h-auto object-cover">
                     <div class="p-4 flex-grow">
-                        <h3 class="font-medium text-lg mb-2">Violence against women and girls</h3>
+                        <h3 class="font-bold text-lg mb-2">Violence against women and girls</h3>
                     </div>
-                    <div class="p-4">
+                    <div class="p-4 mb-5">
                         <a href="#"
                             class="bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600 transition">See
                             More</a>
@@ -62,13 +63,13 @@
                 </div>
 
                 <!-- Card 2 -->
-                <div class="bg-white shadow rounded-lg overflow-hidden flex flex-col">
-                    <img src="img/impact-of-ageism.png" alt="Ageism and LGBTI" class="w-full h-60 object-cover">
+                <div class="bg-white shadow-md rounded-lg overflow-hidden flex flex-col">
+                    <img src="img/impact-of-ageism.png" alt="Ageism and LGBTI" class="w-full h-auto object-cover">
                     <div class="p-4 flex-grow">
-                        <h3 class="font-medium text-lg mb-2">Impact of Ageism and Lifelong Discrimination on Older LGBTI
+                        <h3 class="text-lg mb-2 font-bold">Impact of Ageism and Lifelong Discrimination on Older LGBTI
                             people</h3>
                     </div>
-                    <div class="p-4">
+                    <div class="p-4 mb-5">
                         <a href="#"
                             class="bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600 transition">See
                             More</a>
@@ -76,14 +77,14 @@
                 </div>
 
                 <!-- Card 3 -->
-                <div class="bg-white shadow rounded-lg overflow-hidden flex flex-col">
+                <div class="bg-white shadow-md rounded-lg overflow-hidden flex flex-col ">
                     <img src="img/forgotten-comfort-women.png" alt="Comfort women of the Philippines"
-                        class="w-full h-60 object-cover">
+                        class="w-full h-auto object-cover">
                     <div class="p-4 flex-grow">
-                        <h3 class="font-medium text-lg mb-2">The forgotten ‘comfort women’ of the Philippines – and
+                        <h3 class=" text-lg mb-2 font-bold">The forgotten ‘comfort women’ of the Philippines – and
                             their struggle for justice</h3>
                     </div>
-                    <div class="p-4">
+                    <div class="p-4 mb-5">
                         <a href="#"
                             class="bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600 transition">See
                             More</a>
@@ -94,34 +95,38 @@
         </div>
     </section>
     <section class="bg-gray-900 text-white min-h-screen flex items-center justify-center p-6">
-        <div class="max-w-6xl w-full grid md:grid-cols-2 gap-12 items-center">
+        <div class="max-w-6xl w-full grid md:grid-cols-2 gap-40 items-center">
 
             <!-- Left Content -->
             <div>
                 <h2 class="text-3xl font-semibold mb-4">
                     The Philippine <span class="text-orange-500">Landscape</span>
+                    <div class="w-50 h-1 bg-orange-500 mt-3 rounded"></div>
                 </h2>
-                <p class="text-gray-300 leading-relaxed">
-                    Gender-based violence in the Philippines is deeply rooted in cultural and social structures that
-                    have persisted for generations. Traditional gender roles and patriarchal values continue to
-                    influence Filipino family dynamics, where men are often viewed as the authority figures and primary
-                    decision-makers. This power imbalance can create environments where abuse goes unchallenged or is
-                    normalized.
+                <p class="text-gray-300 leading-relaxed text-justify pr-5">
+                 Gender-based violence in the Philippines is deeply rooted in cultural and social structures that have persisted for generations. Traditional gender roles and patriarchal values continue to influence Filipino family dynamics, where men are often viewed as the authority figures and primary decision-makers. This power imbalance can create environments where abuse goes unchallenged or is normalized.
                 </p>
             </div>
 
             <!-- Right Content -->
             <div class="flex flex-col items-center justify-center space-y-4">
                 <div
-                    class="bg-gray-100 text-gray-800 w-80 h-60 rounded-md flex items-center justify-center text-center px-4">
+                    class="bg-gray-100 text-gray-800 w-[39.5rem] h-[34.75rem] rounded-md flex items-center justify-center text-center px-4">
                     3 pics, Luzon, Visayas, Mindanao, tourist spot or pic na naga identify sa each
                 </div>
-                <div class="flex space-x-4">
-                    <button class="bg-orange-500 hover:bg-orange-600 text-white p-3 rounded-full">
-                        &#8592;
+                <div class="flex space-x-3">
+                    <button class="bg-orange-500 hover:bg-orange-600 text-white p-3 rounded-full cursor-pointer">
+                    <svg class="w-6 h-6 text-white " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m15 19-7-7 7-7"/>
+</svg>
+
                     </button>
-                    <button class="bg-orange-500 hover:bg-orange-600 text-white p-3 rounded-full">
-                        &#8594;
+                    
+                    <button class="bg-orange-500 hover:bg-orange-600 text-white p-3 rounded-full cursor-pointer">
+                <svg class="w-6 h-6 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7"/>
+</svg>
+
                     </button>
                 </div>
             </div>
@@ -129,62 +134,65 @@
         </div>
     </section>
     <section class="bg-gray-100 text-gray-800 p-8">
-        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-15 items-center">
 
-            <!-- Left Column: Forms of GBV -->
-            <div class="space-y-4">
-                <h3 class="text-xl font-semibold">Forms of <span class="text-orange-500">GBV</span></h3>
+         <div class="w-full flex flex-col items-center justify-center">
+    <h3 class="text-xl font-semibold text-center ">Forms of <span class="text-orange-500">GBV</span></h3>
 
-                <div class="space-y-4">
-                    <!-- Item -->
-                    <div class="flex items-center space-x-4">
-                        <img src="img/sexaulA.png" class="w-12 h-12 rounded-full object-cover" alt="Sexual Abuse">
-                        <span>Sexual <span class="text-orange-500">Abuse</span></span>
-                    </div>
+    <div class="grid grid-cols-3 gap-4 items-center justify-items-center">
+        <!-- Top Left Pos 1 -->
+        <div class="col-start-1 row-start-1 flex flex-col items-center">
+            <img src="img/sexaulA.png" class="w-12 h-12 rounded-full object-cover mb-2" alt="Sexual Abuse">
+            <span class="text-center">Sexual <span class="text-orange-500">Abuse</span></span>
+        </div>
 
-                    <div class="flex items-center space-x-4">
-                        <img src="img/EmotionalA.png" class="w-12 h-12 rounded-full object-cover" alt="Emotional Abuse">
-                        <span>Emotional <span class="text-orange-500">Abuse</span></span>
-                    </div>
+        <!-- Top Right Pos 2-->
+        <div class="col-start-3 row-start-1 flex flex-col items-center">
+            <img src="img/EmotionalA.png" class="w-12 h-12 rounded-full object-cover mb-2" alt="Emotional Abuse">
+            <span class="text-center">Emotional <span class="text-orange-500">Abuse</span></span>
+        </div>
 
-                    <div class="flex items-center space-x-4">
-                        <img src="img/physical.png" class="w-12 h-12 rounded-full object-cover" alt="Physical Abuse">
-                        <span>Physical <span class="text-orange-500">Abuse</span></span>
-                    </div>
+        <!-- Middle Center Pos 3 -->
+        <div class="col-start-2 row-start-2 flex flex-col items-center">
+            <img src="img/physical.png" class="w-12 h-12 rounded-full object-cover mb-2" alt="Physical Abuse">
+            <span class="text-center">Physical <span class="text-orange-500">Abuse</span></span>
+        </div>
 
-                    <div class="flex items-center space-x-4">
-                        <img src="img/trafficking 1.png" class="w-12 h-12 rounded-full object-cover"
-                            alt="Trafficking in Person">
-                        <span>Trafficking in <span class="text-orange-500">Person</span></span>
-                    </div>
+        <!-- Bottom Left Pos 4 -->
+        <div class="col-start-1 row-start-3 flex flex-col items-center">
+            <img src="img/trafficking 1.png" class="w-12 h-12 rounded-full object-cover mb-2" alt="Trafficking">
+            <span class="text-center">Trafficking <span class="text-orange-500">Person</span></span>
+        </div>
 
-                    <div class="flex items-center space-x-4">
-                        <img src="img/childneglect 1.png" class="w-12 h-12 rounded-full object-cover"
-                            alt="Issues in Child Custody">
-                        <span>Issues in Child <span class="text-orange-500">Custody</span></span>
-                    </div>
+        <!-- Bottom Right Pos 5 -->
+        <div class="col-start-3 row-start-3 flex flex-col items-center">
+            <img src="img/EconomicA.png" class="w-12 h-12 rounded-full object-cover mb-2" alt="Economic Abuse">
+            <span class="text-center">Economic <span class="text-orange-500">Abuse</span></span>
+        </div>
 
-                    <div class="flex items-center space-x-4">
-                        <img src="img/EconomicA.png" class="w-12 h-12 rounded-full object-cover" alt="Economic Abuse">
-                        <span>Economic <span class="text-orange-500">Abuse</span></span>
-                    </div>
-                </div>
-            </div>
+        <!-- Bottom Middle Pos 6 -->
+        <div class="col-start-2 row-start-4 flex flex-col items-center">
+            <img src="img/childneglect 1.png" class="w-12 h-12 rounded-full object-cover mb-2" alt="Child Custody">
+            <span class="text-center">Child <span class="text-orange-500">Custody</span></span>
+        </div>
+    </div>
+</div>
+   
 
             <!-- Right Column: Text Content -->
             <div>
-                <h2 class="text-2xl md:text-3xl font-semibold mb-4">
-                    What is Gender-Based <span class="text-orange-500">Violence</span><span
-                        class="text-orange-500">?</span>
+                <h2 class="text-2xl md:text-3xl font-semibold mb-3">
+                    What is Gender-Based <span class="text-orange-500">Violence</span>
+                        ?
                 </h2>
-                <div class="w-20 h-1 bg-orange-500 mb-4"></div>
-                <p class="text-gray-700 mb-4 leading-relaxed">
+                <div class="w-50 rounded h-1 bg-orange-500 mb-4"></div>
+                <p class="text-gray-700 mb-4 leading-relaxed text-justify">
                     Gender-based violence (GBV) refers to harmful acts directed at an individual or a group based on
                     their gender. It is rooted in gender inequality, power imbalances, and harmful norms. Gender-based
                     violence is a serious violation of human rights and a life-threatening health and protection issue
                     that transcends socioeconomic, educational, geographic, and cultural boundaries.
                 </p>
-                <p class="text-gray-700 leading-relaxed">
+                <p class="text-gray-700 leading-relaxed text-justify">
                     While women and girls are disproportionately affected by GBV globally, it’s important to recognize
                     that gender-based violence can affect anyone, including men, boys, and individuals who identify as
                     LGBTQ+. However, women and girls remain the most at risk, particularly in societies with pronounced
